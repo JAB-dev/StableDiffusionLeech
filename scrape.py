@@ -15,7 +15,7 @@ if __name__ == "__main__":
     start=10000
     end=30000
     diff=(end-start)
-    #Just make threads a big number, your internet is probably the limiting factor and not the threadcount
+    #Just make threads a big number, your internet is probably the limiting factor and not the threadcount, so if you want to spare your replit use 4
     threadcount=5000
     offset=round(diff/threadcount)
     for x in range(1,threadcount):
