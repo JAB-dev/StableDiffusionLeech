@@ -1,7 +1,6 @@
 import multiprocessing
 from multiprocessing.dummy import Process
 import requests
-from multiprocessing import Pool, pool
 
 def scrape(start,end):
     for x in range(start,end):
